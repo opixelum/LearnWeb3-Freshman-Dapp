@@ -5,7 +5,6 @@ pragma solidity ^0.8.12;
 /// @author Anto "Opixelum" Benedetti
 /// @notice Read and write user mood on the blockchain
 contract MoodDiary {
-
     string mood;
 
     /// @notice Stores entered mood into blockchain
@@ -19,5 +18,4 @@ contract MoodDiary {
     function getMood() public view returns (string memory) {
         return mood;
     }
-
 }
